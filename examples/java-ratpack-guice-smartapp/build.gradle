@@ -9,6 +9,7 @@ buildscript {
 
 plugins {
     id 'jacoco'
+    id "com.github.johnrengelman.shadow" version "5.2.0"
     id 'java'
     id 'groovy'
     id 'application'
